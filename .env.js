@@ -1,0 +1,12 @@
+export const dialogflowConfig = {
+    type: 'service_account',
+    project_id: 'faq-bot-jmnmba',
+    private_key_id: 'e52bd213f89dab387859212963d5f0d64b29fc02',
+    private_key: '-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDcGkFQUXINPq61\n9hF40Zlye9hR3UW8a/Qw51uXPyUhKhn052uy8OcMfeOONmHB/LkbdhYK9AeIzwHt\nMOxx3s8ym6dY/6EQOf+elnBkMZ6dVU+9kRB/D/u+qcuzIZuA56X0fTcuzMd1p0r7\nCl03602hGPldRVA7bB52vjVJfnwanJ6o23bpiuQefNgFPuI4M52WVxwGOFIFqv18\nqV02ilxEnLhRuAnV3MqDYLnNOw3DvUiT+FHPcz4YMq75d9Z5/57tB3IOBBC27TZ6\nq/9PoUZiOVcy5hhF7gBLyOAb5Yk2FfsZI//FWttof2iVXPCCI9+c/QVhdJPgkR2P\nqck3lRIBAgMBAAECggEAAQsg0ldbtPaRaaxtrC1DAhKjPADsDGoiNLvydVBn0sHt\ncJNLF+r7dW9m8+AlhrMCuT+0kaW5hjg3a2vz2wOLtB/RY2MgdnOH8Jtu+fkGpi4a\nD2CC+886fTUDeBxv+jFe8756Of8SvQFau79Y7mOi5Ee6VITFGufQalvmSpLOcAPa\nBOviuVr1O3exiMKJh9WfyKLzqo8w4w9kn9SNt3u0P4pxXFS8Jtfpe8aq8WZUfzIJ\nyRnJJjNc2FLEPO/E/pyRhAKkR0OKdj43TqQODFv0+eM39JQXz30ztk6EFqbDCmnL\nZT7VKo2aebMWJLA3StnmKFR0TavzT3L35kCQ7DuTJwKBgQDtjAPnOULpC1QgXbsE\nkwdrW24kQeXgs0+bXUvFiIRbd+K7auXVX7+G/esn3mrrnSqPGnIH5WajxfoYkNoF\nAulXfCveRgCld2McuRYvolQmlszSDYD81a5dZLqRJ3LAiFhTA+OZ8APZ6d5j0kj5\natY1qwTskxVrsf+z1Zh1XYomIwKBgQDtM1TtqsaMkAxKMLnCenJ2u3+qToh0k0zl\nBz3/IxbJJXkPTBZxHyKt/CXL4hBnbGozt1gbSka8XJfeFt/0lLJ6DHQubm9AlMDv\nHH9orA+g8+JPGP7ya7TiAnharolIvYgXxvQXPZgS9bh3OpVsSH//8Ph7PwsMANtH\n7Ze71a1/iwKBgQDDu7hHoV4pyoTiOnlsVn4pjufdhlMVaIqy2RgjRs7Q06MGjRme\nTMvzPmyyqElvpUw5KDBHo1WEow/liA2tTW3aAV3gQ8wqi4omU7gdPeOa/Gz+s9PS\nAXwwRlyYWGnsjSxCExVKdYOm3la5577rjYW+KRHgoX1oBP5OPzTlmFLKAwKBgQC7\nlUCww8FJIBHYCjidaCBlbVpE4N5g8qx44wVQY/t9Dzlxs4Z751eRqDprxleass46\nH+B5lH/kLoWbiROLZJzQkFDA92zb8ceyUSMhMBEcBEMQsn/MTwk5QyLS8/x1ng2m\nYBxg1METHWfIQngwrhUr3vFi5jRiRbskYu0ACreuiQKBgF8MknbO3aGw0qYkbe1p\nCYUtv1YDIIbXqn85ZyTGA/+eENw76gxVhg+V3eFrMkbfZcw1KNuofKLjbrTYOtP9\nPqJsQwHOkBaTE7FGu12pc/JWilq9SZ/Xo5/AWc40cN0k0jRAOUPtZJq4q6sVtT2E\nH2/JXagzTyh5FjkWnwnSpv+o\n-----END PRIVATE KEY-----\n',
+    client_email: 'dialogflow-clixun@faq-bot-jmnmba.iam.gserviceaccount.com',
+    client_id: '110932446641526816386',
+    auth_uri: 'https://accounts.google.com/o/oauth2/auth',
+    token_uri: 'https://oauth2.googleapis.com/token',
+    auth_provider_x509_cert_url: 'https://www.googleapis.com/oauth2/v1/certs',
+    client_x509_cert_url: 'https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-clixun%40faq-bot-jmnmba.iam.gserviceaccount.com'
+};
