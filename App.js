@@ -16,7 +16,7 @@ export default class App extends Component<Props> {
         messages: [
             {
                 _id: 1,
-                text: `Hi! I am the FAQ bot 🤖 from Jscrambler.\n\nHow may I help you with today?`,
+                text: `Hi! I am the FAQ bot 🤖 from ....\n\nHow may I help you with today?`,
                 createdAt: new Date(),
                 user: BOT_USER // note
             }
@@ -31,26 +31,27 @@ export default class App extends Component<Props> {
             dialogflowConfig.project_id
         )
     }
+    // handles the response coming back then call send bot response
+    handleGoogleResponse(result) {
+        let text = result.queryResult.fulfillmentMessages[0].text.text[0];
+        this.sendBotResponse(text);
+    }
 
+    // this sends the text of the message to the dialog flow agent
     onSend(messages = []) {
         this.setState(previousState => ({
             messages: GiftedChat.append(previousState.messages, messages)
-        }))
+        }));
+
         let message = messages[0].text;
         Dialogflow_V2.requestQuery(
             message,
-            result => this.handleGoogleResponse(result),
-            error => console.log(error)
-        )
+            result => this.handleGoogleResponse(result)
+        );
     }
 
-    handleGoogleResponse(result) {
 
-        let text = result.queryResult.fulfillmentMessages[0].text.text[0];
-        this.sendBotResponse(text);
-
-    }
-
+    // updates the state
     sendBotResponse(text) {
         let msg = {
             _id: this.state.messages.length + 1,
@@ -58,15 +59,15 @@ export default class App extends Component<Props> {
             createdAt: new Date(),
             user: BOT_USER
         };
+
         this.setState(previousState => ({
             messages: GiftedChat.append(previousState.messages, [msg])
-        }))
-
+        }));
     }
 
     render() {
         return (
-            <View style={styles.container}>
+            <View style={{ flex: 1, backgroundColor: '#fff' }}>
                 <GiftedChat
                     messages={this.state.messages}
                     onSend={messages => this.onSend(messages)}

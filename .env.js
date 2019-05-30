@@ -1,12 +1,13 @@
+
 export const dialogflowConfig = {
-    type: 'service_account',
-    project_id: 'faq-bot-jmnmba',
-    private_key_id: 'e52bd213f89dab387859212963d5f0d64b29fc02',
-    private_key: '-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDcGkFQUXINPq61\n9hF40Zlye9hR3UW8a/Qw51uXPyUhKhn052uy8OcMfeOONmHB/LkbdhYK9AeIzwHt\nMOxx3s8ym6dY/6EQOf+elnBkMZ6dVU+9kRB/D/u+qcuzIZuA56X0fTcuzMd1p0r7\nCl03602hGPldRVA7bB52vjVJfnwanJ6o23bpiuQefNgFPuI4M52WVxwGOFIFqv18\nqV02ilxEnLhRuAnV3MqDYLnNOw3DvUiT+FHPcz4YMq75d9Z5/57tB3IOBBC27TZ6\nq/9PoUZiOVcy5hhF7gBLyOAb5Yk2FfsZI//FWttof2iVXPCCI9+c/QVhdJPgkR2P\nqck3lRIBAgMBAAECggEAAQsg0ldbtPaRaaxtrC1DAhKjPADsDGoiNLvydVBn0sHt\ncJNLF+r7dW9m8+AlhrMCuT+0kaW5hjg3a2vz2wOLtB/RY2MgdnOH8Jtu+fkGpi4a\nD2CC+886fTUDeBxv+jFe8756Of8SvQFau79Y7mOi5Ee6VITFGufQalvmSpLOcAPa\nBOviuVr1O3exiMKJh9WfyKLzqo8w4w9kn9SNt3u0P4pxXFS8Jtfpe8aq8WZUfzIJ\nyRnJJjNc2FLEPO/E/pyRhAKkR0OKdj43TqQODFv0+eM39JQXz30ztk6EFqbDCmnL\nZT7VKo2aebMWJLA3StnmKFR0TavzT3L35kCQ7DuTJwKBgQDtjAPnOULpC1QgXbsE\nkwdrW24kQeXgs0+bXUvFiIRbd+K7auXVX7+G/esn3mrrnSqPGnIH5WajxfoYkNoF\nAulXfCveRgCld2McuRYvolQmlszSDYD81a5dZLqRJ3LAiFhTA+OZ8APZ6d5j0kj5\natY1qwTskxVrsf+z1Zh1XYomIwKBgQDtM1TtqsaMkAxKMLnCenJ2u3+qToh0k0zl\nBz3/IxbJJXkPTBZxHyKt/CXL4hBnbGozt1gbSka8XJfeFt/0lLJ6DHQubm9AlMDv\nHH9orA+g8+JPGP7ya7TiAnharolIvYgXxvQXPZgS9bh3OpVsSH//8Ph7PwsMANtH\n7Ze71a1/iwKBgQDDu7hHoV4pyoTiOnlsVn4pjufdhlMVaIqy2RgjRs7Q06MGjRme\nTMvzPmyyqElvpUw5KDBHo1WEow/liA2tTW3aAV3gQ8wqi4omU7gdPeOa/Gz+s9PS\nAXwwRlyYWGnsjSxCExVKdYOm3la5577rjYW+KRHgoX1oBP5OPzTlmFLKAwKBgQC7\nlUCww8FJIBHYCjidaCBlbVpE4N5g8qx44wVQY/t9Dzlxs4Z751eRqDprxleass46\nH+B5lH/kLoWbiROLZJzQkFDA92zb8ceyUSMhMBEcBEMQsn/MTwk5QyLS8/x1ng2m\nYBxg1METHWfIQngwrhUr3vFi5jRiRbskYu0ACreuiQKBgF8MknbO3aGw0qYkbe1p\nCYUtv1YDIIbXqn85ZyTGA/+eENw76gxVhg+V3eFrMkbfZcw1KNuofKLjbrTYOtP9\nPqJsQwHOkBaTE7FGu12pc/JWilq9SZ/Xo5/AWc40cN0k0jRAOUPtZJq4q6sVtT2E\nH2/JXagzTyh5FjkWnwnSpv+o\n-----END PRIVATE KEY-----\n',
-    client_email: 'dialogflow-clixun@faq-bot-jmnmba.iam.gserviceaccount.com',
-    client_id: '110932446641526816386',
-    auth_uri: 'https://accounts.google.com/o/oauth2/auth',
-    token_uri: 'https://oauth2.googleapis.com/token',
-    auth_provider_x509_cert_url: 'https://www.googleapis.com/oauth2/v1/certs',
-    client_x509_cert_url: 'https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-clixun%40faq-bot-jmnmba.iam.gserviceaccount.com'
+    type: "service_account",
+    project_id: "faq-bot-bfpgrr",
+    private_key_id: "5366891399ccb41e374fd2a2fe4ceec2747a916b",
+    private_key: "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDSXDEQ8iNjve0P\nvCflUDQk5uSRWDbi2K6P9QmyT5zYjx383T1BHrZYgoi8C/R5zClQdBCRJZgpwZnF\nrhhwRUgTfv1GcU281g2J+uM+8ys576K0/Q5aWp4LmNIj5eJbzcNYqDVZ4zYYHfiq\nj7pZzQERpT6yoiVk99bOgsk9m/TQ3iZkPew+i8CS14NdgfDp4ROljm7/2sOwAAZW\nuvvzJbdkPR9uiSbfG3b36a7bTO5lMjv0aApH+/C2yomauetRj4pbK9wKQZFFuz5s\nEzVGrRSckfMYBNNSt5A9OvMbUmOj7nAJmTlaGN1QYZJ5RWqnJ/X9W4QLx1xXPmUt\nMcZSGUajAgMBAAECggEAUxuhNvSzDqDmm6TWjj5Vm46tFs8nQBAjRzSkFBJoARbp\n3hD6NlQP7oADzWdbuxLx75srQGz95OFcA0F43kJA65LsNXxmHgjjaHP6e9BOb6FB\nQwgHN6M9dY921j/oYiS03L339f9SS8zrhVcrZHcdyP7j+mcdJvrTntsE7pZC7pFe\nN22BvJg3hvpfDKUrU8362GNT+MRp9ZdqDyHZsVUiAUms9kvmmBqE8dvZIfw+o4dB\nhoRVH6aZ8OtdE50jR2dGDAIwL6mjT2NQEYxAFb/OKafCMFVs5Z1aspqijfTvvAxf\nlBdZaOvnZUZzMLJEXTrqwMlRPreoXku7eNmc0wvQ4QKBgQD0KDh7BbX2MoxZkbEA\nGM/YeZTdkOL2DTtY8Mdaw9ZGoMoYnb7bgPGE/003t8CQ1JldjiQJwNZ59phi7Fwf\ntLCTprHxU+5M02d4q2xXdyxQ53OIvSOlq+uluqe125QsX99GNJoD9h7VKAAs5+3P\nMynhdyna6/mQjFNDA6XAyRy9twKBgQDckE19JR7WDRBfocYGhPZZ6tscpQcKzFIR\nbojhBllp0YgpvM86rZtILxoLCJoVMU4cZQVwc5KGI9ih2LOMXmXj4wXg4sKbkArF\nRPqxp3sH4BbnF1+ankVyXGW0/0iKi8zDtlFMFsOmJNeksjuEXIwPlWFMBpoxnJsR\nqiY0yh3+dQKBgA7/sYiNL0JylICkHJV+8LXBsk1yKx8mbPDnybdftHgeRIwClMjz\nQOMEs/+qQCAlj05Z/wjCWeqgJXheQMKJ3RcU9HV4zHjXu9GD5mHxJj3KGiTaSahR\nyWYi806OsKmRMiwj6xo3MmmxzWD01n0WDYqWQXH7cRdaJ3tEbBhNwoA9AoGBANty\nQ3aw2SZVJyZO+YyA++5oqgqs8v2+XiTz2gIxZALRs2z7ax9RnX7LRlkV/N/7B2Fe\n7XN9uZn2zlHxHmsZfLyooq+mTcOjI+Q0Bk19ef5S6daQvdFDiYsH/TWBDPazs05B\n9k8DEzQZ0egOYQMHZV8X3A9dPksAKpT/ujWppwAFAoGBAOCM6fe1YCBnGEFbT/6+\n6G0v8VkovpaARmKGJTnb2P2zQSGJinXFneQWhSj50O+zOIa9a6SCBNAg1IdEmn5x\njhLy20UDwKrvyIgYWCw86bXpD3CRNXrhoipt3Q7MLeQUOtCICotyuGI3+e2QnRu1\nxwybO9qHqZGV5GaFODO/wPng\n-----END PRIVATE KEY-----\n",
+    client_email: "dialogflow-jaejpk@faq-bot-bfpgrr.iam.gserviceaccount.com",
+    client_id: "107573051722044655221",
+    auth_uri: "https://accounts.google.com/o/oauth2/auth",
+    token_uri: "https://oauth2.googleapis.com/token",
+    auth_provider_x509_cert_url: "https://www.googleapis.com/oauth2/v1/certs",
+    client_x509_cert_url: "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-jaejpk%40faq-bot-bfpgrr.iam.gserviceaccount.com"
 };
