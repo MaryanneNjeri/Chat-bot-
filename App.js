@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {StyleSheet, View} from 'react-native';
 import {GiftedChat} from 'react-native-gifted-chat';
 import {Dialogflow_V2} from 'react-native-dialogflow';
-import {dialogflowConfig} from "./.env";
+import {dialogflowConfig} from "./env";
 
 type Props = {};
 const BOT_USER = {
@@ -18,6 +18,7 @@ export default class App extends Component<Props> {
                 _id: 1,
                 text: `Hi! I am the FAQ bot 🤖 from ....\n\nHow may I help you with today?`,
                 createdAt: new Date(),
+                image:"http://www.reactiongifs.com/wp-content/uploads/2013/07/ralph-wave.gif",
                 user: BOT_USER // note
             }
         ]
@@ -34,6 +35,7 @@ export default class App extends Component<Props> {
     // handles the response coming back then call send bot response
     handleGoogleResponse(result) {
         let text = result.queryResult.fulfillmentMessages[0].text.text[0];
+
         this.sendBotResponse(text);
     }
 
@@ -69,6 +71,7 @@ export default class App extends Component<Props> {
         return (
             <View style={{ flex: 1, backgroundColor: '#fff' }}>
                 <GiftedChat
+
                     messages={this.state.messages}
                     onSend={messages => this.onSend(messages)}
                     user={{
@@ -80,8 +83,4 @@ export default class App extends Component<Props> {
     }
 }
 
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-    }
-});
+
